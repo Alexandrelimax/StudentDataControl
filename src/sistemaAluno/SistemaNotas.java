@@ -23,6 +23,7 @@ public class SistemaNotas {
                 System.out.println(listAlunos.toString());
             }
 
+
             for(Map.Entry<CondicaoAprovacao,List<Aluno>> iterator : condicaoAprovacaoListMap.entrySet()) {
                 System.out.println(iterator.getKey()+"\n"+iterator.getValue());
             }
